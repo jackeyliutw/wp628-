@@ -1,0 +1,49 @@
+@media (min-width: 992px) {.mobile-logo, .theme-mobile-menu {display: none;}
+	.xl-list .main-content-part.edd .xl-product-img, .xl-list .main-content-part.edd .xl-image-box {border-left: 1px solid #e9e9ea;}}
+@media (max-width: 991px) {.custom-header-img, .custom-header-img a, .custom-header-img img {height: 100%;min-height: 200px;object-fit: cover;}
+	.footer-copyright .widget_title:not([class^="widget_title_"]):after {left: 0;right: 0;margin: auto;}
+	.hide-mobile-tablet.sticky-menu {position: relative;}
+	.hide-mobile-tablet {display: none;}
+	.mobile-menu .login-btn {display: none;}
+	#header-sidebar-right .widget_info li:last-child a:after, #header-top-left .widget_info li:first-child a:after {height: 0;}
+	.header .widget_info li {margin-right: 0;margin-bottom: 5px;}
+	#header-sidebar-right .widget:nth-child(1n+2), #header-top-left .widget:nth-child(1n+2) {margin-left: 0;}
+	.header-widget .widget_social li a {margin-bottom: 4px;}}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {.header .widget_nav_menu .sub-menu li .sub-menu, .navigation .menubar .dropdown-menu li .dropdown-menu {left: auto;right: 100%;}
+	.header .widget_nav_menu .sub-menu li .sub-menu li .sub-menu li .sub-menu, .navigation .menubar .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {right: auto;left: 100%;}
+	.header .widget_nav_menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu, .navigation .menubar .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {left: auto;right: 100%;}
+	.header .widget_nav_menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu, .navigation .menubar .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {left: auto;right: 100%;}
+	.header .widget_nav_menu .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu li .sub-menu, .navigation .menubar .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {left: auto;right: 100%;}}
+@media (min-width: 480px) and (max-width: 768px) {.hide-tablet {display: none;}
+	.hide-tablet.sticky-menu {position: relative;}}
+@media (min-width: 783px) and (max-width: 991px) {.admin-bar .theme-mobile-nav.sticky-menu {top: 32px;}}
+@media (min-width: 601px) and (max-width: 782px) {.admin-bar .theme-mobile-nav.sticky-menu {top: 45px;}}
+@media (min-width: 768px) and (max-width: 992px) {.gallery-icon figcaption {padding: 10px;}
+	.gallery-icon .inner-content a {font-size: 14px;padding: 0;margin: 0;width: 25px;height: 25px;line-height: 25px;}
+	.gallery-icon .inner-content h4 {font-size: 15px;margin-bottom: 0;line-height: 20px;}
+	.gallery-icon .inner-content p {margin: 0;font-size: 10px;line-height: 18px;}}
+@media (max-width: 767px) {.xl-container-fluid, .xl-container {padding: 0 25px;}
+	.hide-mobile-tablet.sticky-menu {position: relative;}
+	.hide-mobile-tablet {display: none;}
+	.breadcrumb-right .breadcrumb-content, .breadcrumb-content {-ms-flex-direction: column;flex-direction: column;-ms-flex-pack: center;justify-content: center;text-align: center;}
+	.breadcrumb-right h2 {text-align: center;}
+	.breadcrumb-area .breadcrumb-heading, .breadcrumb-area .breadcrumb-list {max-width: 100%;text-align: center;}
+	.widget_social li {margin-bottom: 6px;}
+	.header-widget .widget:nth-child(1n+2) {margin-left: 0;}
+	.header-widget .widget_social li:first-child a {padding-left: 0;}
+	.mobi-head-top {width: 100%;}
+	.mobile-logo {text-align: center;}
+	.site-description {white-space: normal;}
+	.site-title, .site-description {text-align: left;}
+	.error-main h1 {font-size: 12em;}}
+@media (max-width: 540px) {.comment-list .children {margin-left: 1rem;}
+	.widget_media_gallery .gallery-item {max-width: 100%;}
+	.hide-mobile {display: none;}
+	.hide-mobile.sticky-menu {position: relative;}
+	.error-main h1 {font-size: 8em;}
+	.error-main h4 {font-size: 1.15em;}
+	.error-quotes:before {transform: translateY(42px);}}
